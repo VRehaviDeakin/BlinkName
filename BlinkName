@@ -1,0 +1,119 @@
+
+Devices
+namemorse.ino 
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+int led1 = D7; //unnecsary for this project but useful to give led's names rather than refer to the pin.
+void setup() {
+    
+    pinMode(led1, OUTPUT); //set led to send voltage
+    
+    digitalWrite(led1, LOW); //set it off just to avoid confusion
+}
+void loop() {
+//V
+digitalWrite(led1, HIGH);
+delay(1000);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1000);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1000);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(3000);
+digitalWrite(led1, LOW);
+delay(3000);
+//E
+digitalWrite(led1, HIGH);
+delay(1000);
+digitalWrite(led1, LOW);
+delay(3000);
+//S
+digitalWrite(led1, HIGH);
+delay(1000);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1000);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(1000);
+digitalWrite(led1, LOW);
+delay(3000);
+//A
+digitalWrite(led1, HIGH);
+delay(1000);
+digitalWrite(led1, LOW);
+delay(1000);
+digitalWrite(led1, HIGH);
+delay(3000);
+digitalWrite(led1, LOW);
+delay(3000);
+Ready.Last Event: particle/device/updates/pending = false easter_wombat  v2.0.1 
